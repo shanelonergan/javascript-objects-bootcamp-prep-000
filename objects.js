@@ -10,3 +10,10 @@ function updatePlaylist(playlist, artistName, songTitle) {
 }
 
 updatePlaylist(playlist, 'Steve Vai', 'For the Love of God')
+
+function removeFromPlaylist(playlist, artistName) {
+  delete playlist.artistName;
+  return playlist;
+}
+
+updatePlaylist(playlist, 'Steve Vai')
