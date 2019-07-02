@@ -16,4 +16,4 @@ function removeFromPlaylist(playlist, artistName) {
   return playlist;
 }
 
-updatePlaylist(playlist, 'Steve Vai')
+updatePlaylist(playlist, 'Steve Vai');
