@@ -4,8 +4,8 @@ var playlist = {
   'Stevie Ray Vaugn': 'Pride and Joy',
 };
 
-function updatePlaylist(playlist, artist, song) {
-  playlist.artist = song;
+function updatePlaylist(playlist, artistName, songTitle) {
+  playlist[artistName] = songTitle;
   return playlist;
 }
 
